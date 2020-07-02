@@ -6,7 +6,7 @@ else
 fi
 chmod u+w -R ./var ./vendor ./pub/static ./pub/media ./app/etc \
 && chmod u+x ./bin/magento \
-&& php -f ./bin/magento setup:install --base-url=http://173.230.142.230/ \
+&& php -f ./bin/magento setup:install --base-url=http://23.239.18.122/ \
     --db-host=db \
     --db-name=magento \
     --db-user=magento \
@@ -40,7 +40,7 @@ php -f ./bin/magento deploy:mode:set production \
 
       Magento 2 Installed successfully!
 
-      🌎 Admin: http://173.230.142.230/admin
+      🌎 Admin: http://23.239.18.122/admin
       👤 User: admin
       🔑 Password: admin123
 

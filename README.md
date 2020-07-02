@@ -9,7 +9,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/rafaelcgstz/magento2.svg)](https://hub.docker.com/r/rafaelcgstz/magento2/)
 [![Docker Starts](https://img.shields.io/docker/stars/rafaelcgstz/magento2.svg)](https://hub.docker.com/r/rafaelcgstz/magento2/)
 [![Build Status](https://images.microbadger.com/badges/image/rafaelcgstz/magento2.svg)](https://microbadger.com/images/rafaelcgstz/magento2)
-[![Releases](https://img.shields.io/github/release/clean-docker/Magento2.svg)](https://github.com/clean-docker/Magento2/releases)
+[![Releases](https://img.shields.io/github/release/clean-docker/Magento2.svg)](https://github.com/emrecengel/MagentoSetup/releases)
 
 ### Requirements
 
@@ -48,11 +48,11 @@ You can specify the version that want install (e.g. `install-magento2 2.2`).
 
 Enjoy your new panels!
 
-**Web server:** http://173.230.142.230/
+**Web server:** http://23.239.18.122/
 
-**PHPMyAdmin:** http://173.230.142.230:8080
+**PHPMyAdmin:** http://23.239.18.122:8080
 
-**Local emails:** http://173.230.142.230:8025
+**Local emails:** http://23.239.18.122:8025
 
 ### Features commands
 
@@ -80,8 +80,8 @@ or to run in the background using detached mode
 
 `$ docker-compose -f docker-compose.yml -f docker-compose.elasticsearch.yml up -d`
 
-**Elasticsearch:** http://173.230.142.230:9200
+**Elasticsearch:** http://23.239.18.122:9200
 
 ### License
 
-MIT © 2018 [Rafael Corrêa Gomes](https://github.com/rafaelstz/) and [contributors](https://github.com/clean-docker/Magento2/graphs/contributors).
+MIT © 2018 [Rafael Corrêa Gomes](https://github.com/rafaelstz/) and [contributors](https://github.com/emrecengel/MagentoSetup/graphs/contributors).
