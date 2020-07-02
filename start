@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+docker-compose up -d && \
+version=$(git describe --tags $(git rev-list --tags --max-count=1))
+echo "
+===================== 🚀 Done 🚀 ===================
+
+      Created by Rafael Corrêa Gomes
+      v.$version
+      Access your new links:
+
+      🌎 Web server: http://173.230.142.230/
+      ⚙️ PHPMyAdmin: http://173.230.142.230:8080
+      ✉️ Local emails: http://173.230.142.230:8025
+
+===================== 🚀 Done 🚀 ==================="
